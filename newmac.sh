@@ -45,8 +45,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 # configuration
 # keyboard
-defaults write -g InitialKeyRepeat -int 1
-defaults write -g KeyRepeat -int 1
+#defaults write -g InitialKeyRepeat -int 1
+#defaults write -g KeyRepeat -int 12
 defaults write -g ApplePressAndHoldEnabled -bool false
 
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
@@ -359,3 +359,5 @@ for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
    killall "${app}" &> /dev/null
 done
 echo "Done. Note that some of these changes require a logout/restart to take effect."
+
+echo 
