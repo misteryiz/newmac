@@ -361,4 +361,4 @@ for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
 done
 echo "Done. Note that some of these changes require a logout/restart to take effect."
 
-echo 
+echo "Now you need to download SecureCRT, iTerm2 profile, etc."
