@@ -45,8 +45,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 # configuration
 # keyboard
-#defaults write -g InitialKeyRepeat -int 1
-#defaults write -g KeyRepeat -int 12
+#defaults write -g InitialKeyRepeat -int 15
+#defaults write -g KeyRepeat -int 2
+#defaults write -g KeyRepeatEnabled 1
 defaults write -g ApplePressAndHoldEnabled -bool false
 
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
