@@ -33,7 +33,8 @@ brew install --cask \
     openconnect \
     daisydisk \
     drawio \
-    monolingual
+    monolingual \
+    fliqlo
     
 # install homebrew zsh in /usr/local/bin/zsh
 brew install zsh zsh-autosuggestions zsh-syntax-highlighting
