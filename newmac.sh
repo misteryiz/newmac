@@ -5,6 +5,28 @@ xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
 brew update
+brew install \
+    htop \
+    wget \
+    wireshark \
+    mtr \
+    tracepath \
+    nmap \
+    geoip \
+    watch \
+    jq \
+    tmux \
+    tree \
+    terraform \
+    kubernetes-cli \
+    azure-cli \
+    consul \
+    pwgen \
+    colordiff \
+    rsync \
+    vault \
+    iproute2mac
+    
 brew install --cask \
     qlcolorcode \
     qlstephen \
