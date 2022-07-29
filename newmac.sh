@@ -6,57 +6,71 @@ xcode-select --install
 echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
 brew update
 brew install \
-    htop \
+    azure-cli \
+    ca-certificates \
+    certbot \
+    colordiff \
+    consul \
+    figlet \
+    fping \
+    geoip \
+    git \
+    hping \
+    iftop \
+    iperf3 \
+    jq \
+    kubernetes-cli \
+    mtr \
+    nmap \
+    pwgen \
+    rsync \
+    sipcalc \
+    ssh-copy-id \
+    terraform \
+    tmux \
+    tracepath \
+    tree \
+    unbound \
+    vault \
+    watch \
     wget \
     wireshark \
-    mtr \
-    tracepath \
-    nmap \
-    geoip \
-    watch \
-    jq \
-    tmux \
-    tree \
-    terraform \
-    kubernetes-cli \
-    azure-cli \
-    consul \
-    pwgen \
-    colordiff \
-    rsync \
-    vault \
     iproute2mac
     
 brew install --cask \
-    qlcolorcode \
-    qlstephen \
-    qlmarkdown \
-    quicklook-json \
-    qlprettypatch \
-    quicklook-csv \
-    suspicious-package
+    1password \
     alfred \
     appcleaner \
     cheatsheet \
-    docker \
-    google-chrome \
+    daisydisk \
+    dash \
+    firefox \
+    fliqlo \
+    github \
     google-backup-and-sync \
+    google-chrome \
     iterm2 \
-    1password \
-    spectacle \
+    microsoft-remote-desktop \
+    monolingual \
+    netnewswire \
+    omnigraffle \
+    openconnect \
+    openconnect-gui \
+    qlcolorcode \
+    qlmarkdown \
+    qlprettypatch \
+    qlstephen \
+    quicklook-csv \
+    quicklook-json \
+    rectangle \
+    stats \
     superduper \
+    suspicious-package
+    visual-studio-code \
+    vmware-horizon-client \
     vlc \
     wireshark \
-    omnigraffle \
-    dash \
-    spotify \
-    visual-studio-code \
-    remote-desktop-connection \
-    openconnect \
-    daisydisk \
-    drawio \
-    monolingual \
-    fliqlo
+    xbar
     
 # install homebrew zsh in /usr/local/bin/zsh
 brew install zsh zsh-autosuggestions zsh-syntax-highlighting
