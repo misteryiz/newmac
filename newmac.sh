@@ -28,7 +28,6 @@ brew install \
     ssh-copy-id \
     terraform \
     tmux \
-    tracepath \
     tree \
     unbound \
     vault \
