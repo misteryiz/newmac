@@ -46,14 +46,12 @@ brew install --cask \
     firefox \
     fliqlo \
     github \
-    google-backup-and-sync \
     google-chrome \
     iterm2 \
     microsoft-remote-desktop \
     monolingual \
     netnewswire \
     omnigraffle \
-    openconnect \
     openconnect-gui \
     qlcolorcode \
     qlmarkdown \
@@ -64,7 +62,7 @@ brew install --cask \
     rectangle \
     stats \
     superduper \
-    suspicious-package
+    suspicious-package \
     visual-studio-code \
     vmware-horizon-client \
     vlc \
